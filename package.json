@@ -10,7 +10,8 @@
     "build": "yarn",
     "start": "node api/server.js",
     "dev": "nodemon api/server.js",
-    "crawl": "node crawler/script.js"
+    "crawl": "node crawler/script.js",
+    "generate:juz": "node generator/juz.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
